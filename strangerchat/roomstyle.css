@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.chatroom{
+	height: 100%;
+	width: 100%;
+	display: inline-flex;
+}
+.chatroom .user{
+	height: 100%;
+	width: 30%;
+}
+.chatroom .user .user-title{
+	width: 100%;
+	height: 80px;
+	background: #2f2346;
+	display: inline-flex;
+}
+.chatroom .user .user-title img{
+	height: 60px;
+	width: 60px;
+	margin: 10px 0 0 10px;
+}
+.chatroom .user .user-title p{
+	color: white;
+	font-weight: bolder;
+	font-size: 18px;
+	margin: 20px 0 0 20px;
+}
+#active{
+	font-weight: normal;
+	font-size: 16px;
+	color: green;
+}
+.chatroom .user .user-list{
+	width: 100%;
+	height: 500px;
+	background: #483a64;
+}
+.chatroom .user .user-logout{
+	height: 41px;
+	width: 100%;
+	background: #50397d;
+	display: inline-flex;
+}
+.chatroom .user .user-logout a{
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 10px 0 0 20px;
+}
+.chatroom .user .user-logout a i{
+	margin-left: 270px;
+	cursor: pointer;
+}
+.chatroom .stranger{
+	height: 100%;
+	width: 60%;
+}
+.chatroom .stranger .stranger-title{
+	width: 100%;
+	height: 80px;
+	background: #6649ab;
+}
+.chatroom .stranger .stranger-title p{
+	font-size: 18px;
+	color: white;
+	padding: 25px 0 0 20px;
+}
+#online{
+	color: green;
+	font-size: 16px;
+	margin-left: 10px;
+	font-weight: bolder;
+}
+.chatroom .stranger .message-box{
+	width: 100%;
+	height: 500px;
+	background: #c1b7d8;
+}
+.chatroom .stranger .text-message{
+	height: 41px;
+	width: 100%;
+	background:white;
+}
+.chatroom .stranger .text-message input{
+	height: 100%;
+	width: 90%;
+	outline: none;
+	border: none;
+	font-size: 16px;
+	padding: 0 0 0 20px;
+}
+.chatroom .stranger .text-message a{
+	background: white;
+	padding: 12px 20px;
+	margin-left: 10px;
+	outline: none;
+}
